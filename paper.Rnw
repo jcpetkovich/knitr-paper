@@ -1,0 +1,31 @@
+\documentclass[11pt,english]{report}
+\textwidth=6.5in \textheight=9in \oddsidemargin=0in
+\evensidemargin=0in \topmargin=-0.5in
+
+%% only section numbers please
+\renewcommand{\thesection}{\arabic{section}}
+
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{siunitx}
+\sisetup{binary-units = true}
+
+\input{lib/macros}
+
+% TikZ
+\usetikzlibrary{automata,arrows,shapes,backgrounds,positioning,decorations.markings,decorations.pathreplacing,calc}
+
+% Acronyms
+
+\begin{document}
+
+\begin{abstract}
+
+NA  
+
+\end{abstract}
+
+
+\end{document}

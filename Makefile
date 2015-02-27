@@ -17,6 +17,7 @@ clean:
 	latexmk -c $(DOCNAME).tex
 	rm -f $(DOCNAME).tex
 	rm -f $(DOCNAME).pdf
+	rm -f $(DOCNAME).synctex.gz
 
 view: $(DOCNAME).pdf
 	latexmk -pdf -pv $(DOCNAME).tex
